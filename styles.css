@@ -1,3 +1,103 @@
-body { background-color: powderblue; }
-h1 { color: blue; }
-p { color: red; }
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(platformer_background.PNG);
+    background-size: cover;
+}
+
+a { color: #0d1f22; }
+
+p { margin: 0; }
+
+.marginNone
+{
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: royalblue;
+}
+
+.pageContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.pageTitle{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleContainer{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08415c;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #d90429;
+    color: #01796f;
+}
+
+.navigationPane{
+    width: 100%;
+    height: 13%;
+    background-color: #08415c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigationBox{
+    width: 100px;
+    height: 80%;
+    background-color: #d90429;
+    border: solid 5px #0d1f22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .1s;
+}
+
+.navigationBox:hover {
+    transform: scale(1.05);
+}
+
+.pageFooter{
+    width: 100%;
+    height: 13%;
+    background-color: #08415c;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footerContent{
+    color: #01796f;
+    display: flex;
+}
+
+.footerStyle{
+    margin-left: 30px;
+}
+
+.logo{
+    background-image: url(digital%20logo%20design%20changed.png);
+    background-size: contain;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.para{
+    width: 100%;
+}
