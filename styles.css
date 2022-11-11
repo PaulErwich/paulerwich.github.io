@@ -10,13 +10,20 @@ body
 
 a { color: #0d1f22; }
 
-p { margin: 0; }
+p { margin: 0;
+color: black}
 
 .marginNone
 {
     margin: 0;
     font-family: 'Space Mono', monospace;
     background-color: royalblue;
+}
+
+.test
+{
+    -webkit-text-fill-color: black;
+    text-shadow: none;
 }
 
 .pageContainer{
