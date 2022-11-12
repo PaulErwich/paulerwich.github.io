@@ -26,6 +26,11 @@ color: black}
     text-shadow: none;
 }
 
+.iconMargin
+{
+    margin-top: 10px;
+}
+
 .pageContainer{
     width: 100%;
     height: 100%;
