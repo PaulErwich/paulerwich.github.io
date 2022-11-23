@@ -1,17 +1,20 @@
 body
 {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    /*background-image: url(platformer_background.PNG);*/
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 a { color: #0d1f22; }
 
-p { margin: 0;
-color: black}
+.centerAlign
+{
+    margin: auto;
+    align-content: center;
+}
+
+.max
+{
+    min-width: 42em;
+}
 
 .marginNone
 {
@@ -29,6 +32,12 @@ color: black}
 .iconMargin
 {
     margin-top: 10px;
+}
+
+.coverMargin
+{
+    margin-left: 20%;
+    margin-right: 20%
 }
 
 li

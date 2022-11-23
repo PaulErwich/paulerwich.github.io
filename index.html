@@ -9,6 +9,7 @@
     <title>Paul Erwich - Home</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
+    <link href="styles.css" rel="stylesheet">
 
     
 
@@ -75,9 +76,9 @@
   </head>
   <body class="d-flex h-100 text-center text-bg-dark">
     
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
+<div class="d-flex w-100 h-100 p-3 flex-column">
+  <header class="mb-auto max centerAlign">
+    <div class=>
       <h3 class="float-md-start mb-0">Paul Erwich</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.html">Home</a>
@@ -87,15 +88,85 @@
     </div>
   </header>
 
-  <main class="px-3">
+  <main class="w-100">
     <section class="py-5 text-center container">
       <h1>About me</h1>
       <p class="lead">I am a second year student studying Games Technology at The University of the West
-        of England. This website showcases several of my projects along with my CV. Below is a list of software
-      I have experience in using.</p>
+        of England. This website showcases several of my projects along with my CV.</p>
     </section>
 
-    <div class="container">
+    <div class="container p-3">
+      <div class="row row-cols-1 row-cols-2 row-cols-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm test">
+            <h4 class="card-header">Platformer</h4>
+            <img src="Images/Platformer.PNG">
+            <div class="card-body">
+              <p class="card-text">This is a Platformer I created using C++ and SFML for a big year 1 assigment. This was a solo project where
+                I was tasked to create a Platformer with 1 level and collectables. In the end I had a much more complex project with
+                multiple levels, enemies and projectiles.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">C++</li>
+                <li class="list-group-item">AI</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" onclick="window.open('https://github.com/PaulErwich/SFMLPlatformer')"
+                          class="btn btn-sm btn-outline-secondary">Github repo</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary"></button>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm test">
+            <h4 class="card-header">Rescue Scenario</h4>
+            <img src="Images/UnityRescue.PNG">
+            <div class="card-body">
+              <p class="card-text">This is a project created in Unity using a model I created in Maya. You control a flying train which can then
+                use the claw on the back in order to pickup boulders from an avalanche. The avalanche was created using a variety of particle systems
+                and physics objects.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Unity</li>
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">Physics</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" onclick="window.open('https://github.com/PaulErwich/3d_env_game')"
+                          class="btn btn-sm btn-outline-secondary">Github Repo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm test">
+            <h4 class="card-header">Boss-Beater</h4>
+            <img src="Images/BossBeater.PNG">
+            <div class="card-body">
+              <p class="card-text">This is a group projected created using Python and PyASGE. PyASGE is a python module similar to SFML. It's a top-down,
+                turn based game. The player is able to use both melee and ranged attacks to defeat a variety of enemies across multiple interconnected maps.
+                I contributed the map switching system, inputs, class structure and creating the tile maps.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Python</li>
+                <li class="list-group-item">AI</li>
+                <li class="list-group-item">Pathfinding</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" onclick="window.open('https://github.com/LuryannC/Boss_Beater')"
+                          class="btn btn-sm btn-outline-secondary">Github Repo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-3">
       <div class="row row-cols-1 row-cols-2 row-cols-3">
         <div class="col"><img src="Images/c-plusplus.png" width="100" height="100"><p><br><b>C++</b></p></div>
         <div class="col"><img src="Images/c-sharp-c.png" width="100" height="100"><p><br><b>C#</b></p></div>
